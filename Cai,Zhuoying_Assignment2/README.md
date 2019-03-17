@@ -2,6 +2,7 @@
 In this problem, you’ll re-create the classic race of the tortoise and the hare. You’ll use random-number generation to develop a simulation of this memorable event.
 Our contenders begin the race at square 1 of 70 squares. Each square represents a possible position along the race course. The finish line is at square 70. The first contender to reach or pass square 70 is rewarded with a pail of fresh carrots and lettuce. The course weaves its way up the side of a slippery mountain, so occasionally the contenders lose ground.
 A clock ticks once per second. With each tick of the clock, your application should adjust the position of the animals according to the rules in Fig. 7.32. Use variables to keep track of the posi- tions of the animals (i.e., position numbers are 1–70). Start each animal at position 1 (the “starting gate”). If an animal slips left before square 1, move it back to square 1.
+![alt text](https://github.com/zhuoyingcai/CSC-221-Software-Design-Lab/blob/master/Cai%2CZhuoying_Assignment2/rules%20for%20adjusting%20position.png)
 
 Begin the race by displaying </br>
         BANG !!!!! </br>
